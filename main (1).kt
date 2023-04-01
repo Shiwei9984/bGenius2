@@ -1,0 +1,32 @@
+fun main() {
+   val solarSystem = mutableListOf("Mercury", "Venus", "Earth","Mars","Jupiter", "Saturn", "Uranus", "Neptune","Pluto")
+  println(solarSystem.size)
+  println(solarSystem[2])
+  println(solarSystem.get(3))
+  println(solarSystem.indexOf("Earth"))
+  println(solarSystem.indexOf("Pluto"))
+  println(solarSystem.indexOf("0"))
+  for(planet in solarSystem){
+    println(planet)
+  }
+  solarSystem.add("Star")
+  solarSystem.add(3, "Theia")
+  solarSystem[3] = "Future Moon"
+  solarSystem.remove("Saturn")
+  println(solarSystem.contains("Star"))
+
+  val solarSystemKey = mutableMapOf(
+    "Mercury" to 0,
+    "Venus" to 1, 
+    "Earth" to 2,
+    "Mars" to 3,
+    "Jupiter" to 4, 
+    "Saturn" to 5 , 
+    "Uranus" to 6, 
+    "Neptune" to 7,
+    "Pluto" to 8
+  )
+
+ solarSystemKey["Jupiter"] = 10
+  println(solarSystemKey["Jupiter"])
+}
