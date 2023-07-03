@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Unit 1 practiceCompose Quadrant</string>
+    <string name="textComposable">Text composable</string>
+    <string name="textDescription">Displays text and follows the recommended Material Design guidelines.</string>
+    <string name="imageComposable">Image composable</string>
+    <string name="imageDescription">Creates a composable that lays out and draws a given Painter class object.</string>
+    <string name="rowComposable">Row composable</string>
+    <string name="rowDescription">A layout composable that places its children in a horizontal sequence.</string>
+    <string name="columnComposable">Column composable</string>
+    <string name="columnDescription">A layout composable that places its children in a vertical sequence.</string>
+</resources>
